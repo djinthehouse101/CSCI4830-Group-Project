@@ -43,6 +43,7 @@ public class Restaurant extends HttpServlet {
       } else {
          System.out.println("Failed to make connection!");
       }
+      
       try {
          //String selectSQL = "SELECT * FROM items WHERE MYUSER LIKE ?";
     	  String selectSQL = "SELECT * FROM items";
